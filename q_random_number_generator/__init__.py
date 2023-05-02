@@ -15,7 +15,7 @@ def initial_circuit(q_counts: str):
 
 
 def generate(start, end, total):
-    maximum = end
+    maximum = max(abs(start), abs(end))
     collected = 0
     qbits = 0
 
