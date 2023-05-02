@@ -5,7 +5,7 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     name="q_random_number_generator",
-    version="0.0.3",
+    version="0.0.5",
     author="Allen Wu",
     author_email="allen91.wu@gmail.com",
     description="Using qiskit to realize random number generator",
