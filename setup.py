@@ -5,10 +5,10 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     name="q_random_number_generator",
-    version="0.0.7",
+    version="0.1.0",
     author="Allen Wu",
     author_email="allen91.wu@gmail.com",
-    description="Using qiskit to realize random number generator",
+    description="Using qiskit to realize random number generator.",
     long_description=long_description,
     long_description_content_type="text/markdown",
     url="https://github.com/allen91wu/q_random_number_generator",

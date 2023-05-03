@@ -14,7 +14,7 @@ def initial_circuit(q_counts: str):
     return QC
 
 
-def generate(start, end, total):
+def randint(start, end, total):
     maximum = max(abs(start), abs(end))
     collected = 0
     qbits = 0
@@ -47,6 +47,3 @@ def generate(start, end, total):
                 collected += 1
                 random_list.append(random_number)
     return random_list
-
-def randint(start, end, total):
-    return generate(start, end, total)
