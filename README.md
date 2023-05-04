@@ -9,11 +9,11 @@ pip install qiskit # dependent packages
 pip install q_randon_number_generator
 ```
 
-## Example
+## Usages
 ```python
-import q_randon_number_generator as qrng
+import q_randon_number_generator as qrand
 
-random_int = qrng.randint(-10, 10, 1000)
+random_int = qrand.randint(-10, 10, 1000)
 ```
 ## Author
 - Allen Wu
