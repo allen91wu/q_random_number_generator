@@ -3,6 +3,12 @@
 ## Description
 Using qiskit to realize quantum random number generator.
 
+## Installation
+```shell
+pip install qiskit # dependent packages
+pip install q_randon_number_generator
+```
+
 ## Example
 ```python
 import q_randon_number_generator as qrng
